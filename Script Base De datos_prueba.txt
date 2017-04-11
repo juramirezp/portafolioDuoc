@@ -1,0 +1,13 @@
+CREATE TABLE Producto
+  (
+    codigo_prod                VARCHAR2 (10) NOT NULL ,
+    nombre_prod                VARCHAR2 (30) NOT NULL ,
+    descripcion_prod           VARCHAR2 (100) NOT NULL ,
+    fabricante_prod            VARCHAR2 (30) NOT NULL ,
+    tipo_prod                  VARCHAR2 (10) NOT NULL ,
+    componentes_prod           VARCHAR2 (100) NOT NULL ,
+    contenido_prod             VARCHAR2 (100) ,
+    cantidad_prod              INTEGER NOT NULL ,
+    gramage_prod               NUMBER NOT NULL ,
+    
+  ) ;
